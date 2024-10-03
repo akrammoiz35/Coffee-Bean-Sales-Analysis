@@ -4,16 +4,6 @@
 _**Unlocking Coffee's Hidden Potential - A Journey Through Data**_
 - The Coffee Bean Sales Dataset offers a multifaceted exploration of the thriving coffee industry, providing a comprehensive view of sales, customer profiles, and coffee product details. This rich dataset is a gateway to understanding consumer behavior, optimizing product offerings, and improving business strategies in the world of coffee.
 
-## Table of Contents
-- [Business Problem](#business-problem)
-- [Data Source](#data-source)
-- [Business Problem](#business-problem)
-- [Objective, Solution, and Outcome](#objective-solution-and-outcome)
-- [Method](#method)
-- [Quick Glance At The Dashboard](#quick-glance-at-the-dashboard)
-- [Data Overview](#data-overview)
-- [Step By Step Changes](#step-by-step-changes)
-
 ## Business Problem
 **Business Problem Statement:** <br>
 The primary objectives include identifying top customers, tracking coffee-type sales trends, and analyzing sales by country. The dashboard should enable customer engagement and loyalty strategies, optimize product offerings, and support geographical expansion efforts.
@@ -50,22 +40,7 @@ Data on coffee bean sales are divided into 3 separate sheets:
 **Data Gathering and Cleaning:**<br>
 To create a comprehensive table encompassing all details related to product orders, and to enhance the usability of the data for subsequent analysis, various columns from the _Customers_ and _Products_ tables have been combined within the _Orders_ table. These combined columns facilitate a more cohesive representation of the information pertaining to product orders, allowing for more effective analytical processes.
 
-**Columns selected are:**
-
-| **Customers Sheet** |
-|-------------------	|
-| Customer Name     	|               
-| Email    	          |
-| Country             |
-                                
-| **Products Sheet** |
-|------------------	 |
-| Coffee Type|
-| Roast Type |
-| Size       |
-|Unit Price  |
-
-The techniques employed to retrieve data from the _Customers Table_ involve the utilization of the **VLOOKUP formula**. Meanwhile, a combination of the **INDEX** and **MATCH** functions is applied to extract information from the _Products Table_. This approach ensures that a uniform formula can be adapted and applied across every column within the table, enabling the extraction of data in a consistent manner.
+The techniques employed to retrieve data from the _Customers Table_ involve the utilization of the **XLOOKUP formula**. Meanwhile, a combination of the **INDEX** and **MATCH** functions is applied to extract information from the _Products Table_. This approach ensures that a uniform formula can be adapted and applied across every column within the table, enabling the extraction of data in a consistent manner.
 
 **Column Treatment and Adjustments:**
 - 1.	**Email Column:** The missing values in the _Email column_ were replaced with an empty cell using an **IF statement**.

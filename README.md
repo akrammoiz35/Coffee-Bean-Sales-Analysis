@@ -22,7 +22,7 @@ The Coffee Sales Dashboard will give actionable insights to boost sales, improve
 
 ## Method
 - Exploratory data analysis _(EDA)_
-- 
+  
 ## Step By Step Changes
 
 **Data Gathering and Cleaning:**<br>

@@ -4,9 +4,6 @@
 _**Unlocking Coffee's Hidden Potential - A Journey Through Data**_
 - The Coffee Bean Sales Dataset offers a multifaceted exploration of the thriving coffee industry, providing a comprehensive view of sales, customer profiles, and coffee product details. This rich dataset is a gateway to understanding consumer behavior, optimizing product offerings, and improving business strategies in the world of coffee.
 
-## Author
-- [@saadharoon27](https://github.com/saadharoon27)
-
 ## Table of Contents
 - [Business Problem](#business-problem)
 - [Data Source](#data-source)
@@ -33,9 +30,6 @@ The primary objectives include identifying top customers, tracking coffee-type s
 
 **Expected Outcomes:** <br>
 The Coffee Sales Dashboard will give actionable insights to boost sales, improve customer satisfaction, and drive strategic expansion efforts.
-
-## Data Source
-- [Coffee Beans Sales Dataset](https://www.kaggle.com/datasets/saadharoon27/coffee-bean-sales-raw-dataset)
 
 ## Method
 - Exploratory data analysis _(EDA)_
